@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logoImage from '../assets/logo.jpeg'; // Placeholder for logo image
-import '../styles/Navbar.css';
+import '../Styles/Navbar.css';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
