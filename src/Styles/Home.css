@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.home {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Section 1: Slider */
+.slider-section {
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Section 2: Welcome */
+.welcome-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.welcome-section h2 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #004aad;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #003087;
+}
+
+/* Section 3: Services */
+.services-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.service-card {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  color: #004aad;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Section 4: Certifications */
+.certifications-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.certifications-section h2 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 40px;
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certification-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.certification-card:hover {
+  transform: translateY(-5px);
+}
+
+.certification-card h3 {
+  font-size: 1.5rem;
+  color: #004aad;
+  margin-bottom: 10px;
+}
+
+.certification-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .carousel-image {
+    height: 400px;
+  }
+
+  .welcome-section h2,
+  .services-section h2,
+  .certifications-section h2 {
+    font-size: 2rem;
+  }
+
+  .welcome-section p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-image {
+    height: 300px;
+  }
+
+  .welcome-section,
+  .services-section,
+  .certifications-section {
+    padding: 40px 15px;
+  }
+
+  .welcome-section h2,
+  .services-section h2,
+  .certifications-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .service-card h3,
+  .certification-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-image {
+    height: 250px;
+  }
+
+  .welcome-section h2,
+  .services-section h2,
+  .certifications-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .welcome-section p {
+    font-size: 0.9rem;
+  }
+
+  .service-card,
+  .certification-card {
+    padding: 15px;
+  }
+
+  .service-card h3,
+  .certification-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .service-card p,
+  .certification-card p {
+    font-size: 0.9rem;
+  }
+}

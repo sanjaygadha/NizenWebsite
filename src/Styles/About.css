@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.about {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Section 1: Our Story */
+.story-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center; /* Center-align the section for headings */
+}
+
+.story-section h2 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.story-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+  text-align: justify; /* Justify the paragraph text */
+}
+
+/* Section 2: Our Team */
+.team-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center; /* Center-align the section for headings */
+}
+
+.team-section h2 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.team-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+  text-align: justify; /* Justify the paragraph text */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .story-section h2,
+  .team-section h2 {
+    font-size: 2rem;
+  }
+
+  .story-section p,
+  .team-section p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .story-section,
+  .team-section {
+    padding: 40px 15px;
+  }
+
+  .story-section h2,
+  .team-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .story-section p,
+  .team-section p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .story-section h2,
+  .team-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .story-section p,
+  .team-section p {
+    font-size: 0.9rem;
+  }
+}

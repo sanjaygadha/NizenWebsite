@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.services {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Section 1: Our Expertise */
+.expertise-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.expertise-section h2 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.expertise-section .section-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto 30px;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.expertise-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Section 2: Global Impact */
+.impact-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.impact-section h2 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.impact-section .section-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto 30px;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.impact-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .expertise-section h2,
+  .impact-section h2 {
+    font-size: 2rem;
+  }
+
+  .expertise-section p,
+  .impact-section p {
+    font-size: 1rem;
+  }
+
+  .expertise-section .section-image,
+  .impact-section .section-image {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .expertise-section,
+  .impact-section {
+    padding: 40px 15px;
+  }
+
+  .expertise-section h2,
+  .impact-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .expertise-section p,
+  .impact-section p {
+    font-size: 0.95rem;
+  }
+
+  .expertise-section .section-image,
+  .impact-section .section-image {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .expertise-section h2,
+  .impact-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .expertise-section p,
+  .impact-section p {
+    font-size: 0.9rem;
+    text-align: center; /* Revert to center for better readability on small screens */
+  }
+
+  .expertise-section .section-image,
+  .impact-section .section-image {
+    max-width: 300px;
+  }
+}

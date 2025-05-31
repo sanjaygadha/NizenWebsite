@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.products {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Section 1: Medicines */
+.medicines-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.medicines-section h2 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.medicines-section .section-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto 30px;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medicines-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Section 2: Nutraceuticals */
+.nutraceuticals-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.nutraceuticals-section h2 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.nutraceuticals-section .section-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto 30px;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nutraceuticals-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Section 3: Therapeutic Solutions */
+.therapeutic-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.therapeutic-section h2 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.therapeutic-section .section-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto 30px;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.therapeutic-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .medicines-section h2,
+  .nutraceuticals-section h2,
+  .therapeutic-section h2 {
+    font-size: 2rem;
+  }
+
+  .medicines-section p,
+  .nutraceuticals-section p,
+  .therapeutic-section p {
+    font-size: 1rem;
+  }
+
+  .medicines-section .section-image,
+  .nutraceuticals-section .section-image,
+  .therapeutic-section .section-image {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .medicines-section,
+  .nutraceuticals-section,
+  .therapeutic-section {
+    padding: 40px 15px;
+  }
+
+  .medicines-section h2,
+  .nutraceuticals-section h2,
+  .therapeutic-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .medicines-section p,
+  .nutraceuticals-section p,
+  .therapeutic-section p {
+    font-size: 0.95rem;
+  }
+
+  .medicines-section .section-image,
+  .nutraceuticals-section .section-image,
+  .therapeutic-section .section-image {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .medicines-section h2,
+  .nutraceuticals-section h2,
+  .therapeutic-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .medicines-section p,
+  .nutraceuticals-section p,
+  .therapeutic-section p {
+    font-size: 0.9rem;
+    text-align: center; /* Revert to center for better readability on small screens */
+  }
+
+  .medicines-section .section-image,
+  .nutraceuticals-section .section-image,
+  .therapeutic-section .section-image {
+    max-width: 300px;
+  }
+}

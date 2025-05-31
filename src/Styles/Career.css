@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.career {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Section: Join Our Team */
+.career-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.career-section h2 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.career-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto 30px;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.career-intro {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.job-openings {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.job-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+  text-align: left;
+}
+
+.job-card h3 {
+  font-size: 1.5rem;
+  color: #004aad;
+  margin-bottom: 10px;
+}
+
+.job-card .job-location {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.job-card .job-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.job-card button {
+  padding: 10px 20px;
+  background-color: #004aad;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.job-card button:hover {
+  background-color: #003087;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .career-section h2 {
+    font-size: 2rem;
+  }
+
+  .career-intro {
+    font-size: 1rem;
+  }
+
+  .career-image {
+    max-width: 500px;
+  }
+
+  .job-card {
+    max-width: 300px;
+  }
+
+  .job-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .job-card .job-location,
+  .job-card .job-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .career-section {
+    padding: 40px 15px;
+  }
+
+  .career-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .career-intro {
+    font-size: 0.95rem;
+  }
+
+  .career-image {
+    max-width: 400px;
+  }
+
+  .job-openings {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .job-card {
+    max-width: 100%;
+  }
+
+  .job-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .job-card .job-description {
+    text-align: center; /* Center text on smaller screens for better readability */
+  }
+}
+
+@media (max-width: 480px) {
+  .career-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .career-intro {
+    font-size: 0.9rem;
+  }
+
+  .career-image {
+    max-width: 300px;
+  }
+
+  .job-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .job-card .job-location,
+  .job-card .job-description {
+    font-size: 0.9rem;
+  }
+
+  .job-card button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
