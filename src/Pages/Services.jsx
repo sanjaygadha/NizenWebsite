@@ -1,7 +1,7 @@
 import Footer from '../Components/Footer';
 import expertiseImage from '../assets/expertiseImage.jpg'; // Placeholder for research/lab image
 import impactImage from '../assets/GlobalExpertise.jpg';   // Placeholder for global reach image
-import '../styles/Services.css';
+import '../Styles/Services.css';
 
 function Services() {
   return (

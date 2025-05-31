@@ -2,7 +2,7 @@ import Footer from '../Components/Footer';
 import medicinesImage from '../assets/expertiseImage.jpg'; // Placeholder for medicines image
 import nutraceuticalsImage from '../assets/pharma-manufacturing-challenges-1536x861.jpg'; // Placeholder for nutraceuticals image
 import therapeuticImage from '../assets/desktop-wallpaper-a-complete-list-of-pharma-blogs-and-websites-for-guest-posting-for-your-mobile-tablet-explore-pharma-pharma.jpg'; // Placeholder for therapeutic solutions image
-import '../styles/Products.css';
+import '../Styles/Products.css';
 
 function Products() {
   return (

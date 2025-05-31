@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FacebookOutlined, TwitterOutlined, LinkedinOutlined, InstagramOutlined } from '@ant-design/icons';
 import 'antd/dist/reset.css';
-import '../styles/Footer.css';
+import '../Styles/Footer.css';
 
 function Footer() {
   const currentYear = new Date().getFullYear();

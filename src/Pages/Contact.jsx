@@ -3,7 +3,7 @@ import { Modal } from 'antd'; // Import Modal from antd
 import Footer from '../Components/Footer';
 import contactImage from '../assets/GlobalExpertise.jpg'; // Placeholder for office/map image
 import 'antd/dist/reset.css'; // Ensure antd styles are included
-import '../styles/Contact.css';
+import '../Styles/Contact.css';
 
 function Contact() {
   const [formData, setFormData] = useState({

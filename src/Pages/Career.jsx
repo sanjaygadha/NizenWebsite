@@ -1,6 +1,6 @@
 import Footer from '../Components/Footer';
 import careerImage from '../assets/JoinImage.jpeg'; // Placeholder for workplace/team image
-import '../styles/Career.css';
+import '../Styles/Career.css';
 
 function Career() {
   const handleApply = (jobTitle) => {
